@@ -1,0 +1,50 @@
+*{
+    font-family: 'Open Sauce One', sans-serif;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #31353bad;
+    margin: 0 0 0 4px;
+}
+
+a.link {
+    margin: 0 0 0 4px;
+}
+a:hover {
+    color: #03ac0e;
+}
+
+
+.parent-div {
+    width: auto;
+    display: flex;
+    height: 32px;
+    z-index:  3;
+    background-color: #f3f4f5 ;
+    border-bottom: 1px solid #f3f3fe;
+    padding: 0 32px;
+    position: fixed;
+    justify-content: space-between;
+    left: 0px;
+    right: 0px;
+
+}
+
+.child-div {
+    font-size: 12px;
+    line-height: 31px;
+    justify-content: end;
+    margin: 0 0 0 28px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-size: auto;
+}
+
+
+
+
